@@ -1,0 +1,36 @@
+@import "palette";
+
+body {
+  background: $color1;
+  font: 13px/1.8 'Lucida Grance', Verdana, sans-serif;
+  color: $color5;
+
+  margin: 2em auto;
+  padding: 2em;
+  width: 30em;
+}
+
+a, a:link, a:visited {
+  color: $color5;
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 3em;
+}
+
+h1 {
+  font: 200 5.5em 'Raleway', Gill Sans, sans-serif;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.headline {
+  font: 200 2.1em/1.1 'Raleway', Gill Sans, sans-serif;
+  .icon { float: right; }
+}
+
+section {
+  clear: both;
+}
+
